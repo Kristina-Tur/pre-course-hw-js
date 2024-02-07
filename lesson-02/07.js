@@ -9,6 +9,6 @@ let passportMarried = {
 
 const passportMarriedCopy = structuredClone(passportMarried);
 passportMarriedCopy.married = true;
-
-console.log(passportMarried);
 console.log(passportMarriedCopy);
+console.log(passportMarried);
+
