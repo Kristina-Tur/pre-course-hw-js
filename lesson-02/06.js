@@ -7,6 +7,7 @@ let passportWithAddress = {
   }
 };
 
-const _ = require('lodash');
-const clonedObj = _.cloneDeep(passportWithAddress);
-console.log(clonedObj)
+const passportWithAddressClon = structuredClone(passportWithAddress);
+passportWithAddressClon.address.city = "Bobryisk";
+console.log(passportWithAddress);
+console.log(passportWithAddressClon);
