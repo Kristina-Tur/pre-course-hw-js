@@ -6,7 +6,7 @@ let passportWithAddress = {
     city: "LA"
   }
 };
-
+ 
 const passportWithAddressClon = structuredClone(passportWithAddress);
 passportWithAddressClon.address.city = "Bobryisk";
 

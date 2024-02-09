@@ -7,4 +7,4 @@ let passportCopy = Object.assign({}, passport);
 passportCopy.name = "Ivan";
 
 console.log(passport);
-console.log(passportCopy); 
+console.log(passportCopy.name); 

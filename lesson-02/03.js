@@ -4,6 +4,6 @@ const giveMeRightNumbers = (value1, value2, maximum) => {
   } else {
     console.log('Something wrong!');
   }
-}
+} 
 giveMeRightNumbers(300, 100, 200)
 
