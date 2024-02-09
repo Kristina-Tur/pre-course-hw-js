@@ -6,3 +6,4 @@ const giveMeRightNumbers = (value1, value2, maximum) => {
   }
 }
 giveMeRightNumbers(300, 100, 200)
+
