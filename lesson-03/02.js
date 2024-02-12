@@ -1,7 +1,7 @@
 const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
 const word = words.indexOf("апельсин");
-if (!isNaN(word)){
-  console.log("Ура! нашел")
+if (word === -1){
+  console.log("Придется поискать в другом магазине…") 
 } else {
-  console.log("Придется поискать в другом магазине…")
+  console.log("Ура! нашел")
 }
